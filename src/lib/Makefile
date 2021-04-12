@@ -1,0 +1,2 @@
+all: FlowImpl.cpp ExponentialFunction.cpp LogisticFunction.cpp SystemImpl.cpp ModelImpl.cpp
+	g++ -shared FlowImpl.cpp ExponentialFunction.cpp LogisticFunction.cpp SystemImpl.cpp ModelImpl.cpp -o ..\..\bin\bib.dll
